@@ -29,7 +29,7 @@ public class Createnewuser_controller extends HttpServlet
 		user.setPassword(request.getParameter("password"));
 		user.setName(request.getParameter("name"));
 		user.setEmailid(request.getParameter("emailid"));
-		
+		user.setaddress(request.getParameter("address"));
 		
 		Scsdao dao = Scsdao.getDao(dbtype);
 		int status=0;
