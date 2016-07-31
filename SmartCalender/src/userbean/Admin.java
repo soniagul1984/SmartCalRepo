@@ -2,7 +2,7 @@ package userbean;
 
 public class Admin
 {
-	//error
+	//error uploaded
 	private String adminName = null;
 	private String password = null;
 	
